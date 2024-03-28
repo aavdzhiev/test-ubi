@@ -1,3 +1,3 @@
-FROM --platform=linux/s390x registry.access.redhat.com/ubi9/ubi-minimal:9.3-1612
+FROM --platform=linux/s390x registry.access.redhat.com/ubi9/ubi:9.3-1610
 USER 1001
-CMD bash -c "while true; do echo ubi is working!; sleep 5; done"
+CMD bash -c "while true; do echo ubi is working! Testing registry.access.redhat.com/ubi9/ubi:9.3-1610; sleep 5; done"
